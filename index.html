@@ -81,8 +81,7 @@
         <div class="flex items-center justify-between">
           <a href="#home" class="flex items-center gap-3" aria-label="SEC Liberia home">
             <img
-              src="img/HEADER-LOGO21.jpg"
-              alt="SEC Liberia logo"
+              src="/images/HEADER-LOGO21.jpg" alt="SEC Liberia logo"
               class="h-14 w-14 rounded-xl object-cover shadow-lg md:h-16 md:w-16"
               loading="eager"
             />
@@ -90,7 +89,7 @@
               <p class="font-heading text-base font-bold leading-none text-sec-primary md:text-xl">
                 Society for Environmental Conservation
               </p>
-              <p class="text-xs uppercase tracking-wider text-slate-600">SEC - Liberia</p>
+              <p class="text-xs uppercase tracking-wider text-slate-600"></p>
             </div>
           </a>
 
@@ -115,6 +114,7 @@
             <a class="rounded-lg px-3 py-2 text-base font-semibold text-slate-900 transition hover:bg-amber-200/70 hover:text-sec-primary" href="#gallery">Gallery</a>
             <a class="rounded-lg px-3 py-2 text-base font-semibold text-slate-900 transition hover:bg-amber-200/70 hover:text-sec-primary" href="#contact">Contact</a>
             <a
+              id="sec-donate-nav-btn"
               href="#donate"
               class="rounded-full bg-sec-primary px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-emerald-700"
               >Donate</a
@@ -131,7 +131,7 @@
             <a class="rounded-lg px-3 py-2 text-base font-semibold text-slate-900 hover:bg-amber-100" href="#blog">Blog</a>
             <a class="rounded-lg px-3 py-2 text-base font-semibold text-slate-900 hover:bg-amber-100" href="#gallery">Gallery</a>
             <a class="rounded-lg px-3 py-2 text-base font-semibold text-slate-900 hover:bg-amber-100" href="#contact">Contact</a>
-            <a class="rounded-lg bg-sec-primary px-3 py-2 text-center text-sm font-semibold text-white" href="#donate"
+            <a id="sec-donate-mobile-btn" class="rounded-lg bg-sec-primary px-3 py-2 text-center text-sm font-semibold text-white" href="#donate"
               >Donate</a
             >
           </div>
@@ -143,8 +143,7 @@
       <!-- Hero section -->
       <section class="boxed hero-overlay reveal mt-6 overflow-hidden rounded-[2rem] p-6 shadow-float md:p-12" aria-label="Hero">
         <img
-          src="img/photo3.jpg"
-          alt="Forest landscape in Liberia"
+          src="/images/photo3.jpg" alt="Forest landscape in Liberia"
           class="absolute inset-0 h-full w-full object-cover"
           loading="eager"
         />
@@ -163,6 +162,7 @@
           </p>
           <div class="mt-8 flex flex-wrap gap-3">
             <a
+              id="sec-donate-hero-btn"
               href="#donate"
               class="rounded-full bg-sec-accent px-6 py-3 text-sm font-semibold text-emerald-900 transition hover:-translate-y-0.5 hover:bg-emerald-200"
               >Donate Now</a
@@ -176,15 +176,15 @@
 
           <div class="mt-10 grid gap-4 sm:grid-cols-3">
             <article class="rounded-2xl bg-white/10 p-4 backdrop-blur">
-              <p class="text-2xl font-bold" data-counter="220000">0</p>
+              <p class="text-2xl font-bold" data-counter="600">0</p>
               <p class="text-xs uppercase tracking-wide text-white/80">Trees Planted</p>
             </article>
             <article class="rounded-2xl bg-white/10 p-4 backdrop-blur">
-              <p class="text-2xl font-bold" data-counter="87">0</p>
-              <p class="text-xs uppercase tracking-wide text-white/80">Communities Engaged</p>
+              <p class="text-2xl font-bold" data-counter="20">0</p>
+              <p class="text-xs uppercase tracking-wide text-white/80">Communities Reached</p>
             </article>
             <article class="rounded-2xl bg-white/10 p-4 backdrop-blur">
-              <p class="text-2xl font-bold" data-counter="49">0</p>
+              <p class="text-2xl font-bold" data-counter="6">0</p>
               <p class="text-xs uppercase tracking-wide text-white/80">Active Projects</p>
             </article>
           </div>
@@ -223,8 +223,7 @@
 
           <figure class="relative">
             <img
-              src="img/project7.jpg"
-              alt="Volunteers planting tree seedlings in Liberia"
+              src="/images/about-us.jpg" alt="Volunteers planting tree seedlings in Liberia"
               class="h-[320px] w-full rounded-3xl object-cover shadow-soft md:h-[420px]"
               loading="lazy"
             />
@@ -301,66 +300,71 @@
         </div>
 
         <div id="projectGrid" class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Project 1: Enhancing AMENU Farmers Coorperative Capacity -->
           <article class="project-item overflow-hidden rounded-2xl border border-slate-200 bg-white" data-category="forest">
             <img
               class="h-44 w-full object-cover"
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
-              alt="Forest restoration site in Bomi"
+              src="images/project1a.jpg" alt="Enhancing AMENU Farmers Coorperative Capacity "
               loading="lazy"
             />
             <div class="p-5">
-              <h3 class="font-heading text-lg font-semibold">Bomi Green Belt Restoration</h3>
+              <h3 class="font-heading text-lg font-semibold">Enhancing AMENU Farmers Coorperative Capacity </h3>
               <p class="mt-1 text-xs uppercase tracking-wide text-sec-primary">Tubmanburg, Bomi County</p>
               <p class="mt-3 text-sm text-slate-600">Restoring mangrove and upland corridors to protect biodiversity and reduce erosion.</p>
+              <a href="project.html#project-1" class="sec-project-read-more mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
             </div>
           </article>
 
+          <!-- Project 2: Establishing Botanical Garden for income generation -->
           <article class="project-item overflow-hidden rounded-2xl border border-slate-200 bg-white" data-category="water">
             <img
               class="h-44 w-full object-cover"
-              src="https://images.unsplash.com/photo-1457195740896-7f345efef228?auto=format&fit=crop&w=900&q=80"
-              alt="Community water point project"
+              src="images/slide6.jpg" alt="Establishing Botanical Garden for income generation "
               loading="lazy"
             />
             <div class="p-5">
-              <h3 class="font-heading text-lg font-semibold">Clean Water for Schools</h3>
+              <h3 class="font-heading text-lg font-semibold">Establishing Botanical Garden for income generation</h3>
               <p class="mt-1 text-xs uppercase tracking-wide text-sec-primary">Paynesville, Montserrado</p>
               <p class="mt-3 text-sm text-slate-600">Installing rainwater systems and hygiene awareness in high-density school communities.</p>
+              <a href="project.html#project-2" class="sec-project-read-more mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
             </div>
           </article>
 
+          <!-- Project 3: Campagn against the destruction of Liberian Greenbul and its habitat -->
           <article class="project-item overflow-hidden rounded-2xl border border-slate-200 bg-white" data-category="climate">
             <img
               class="h-44 w-full object-cover"
-              src="https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=900&q=80"
-              alt="Youth climate resilience workshop"
+              src="/images/shot1.png" alt="Youth climate resilience workshop"
               loading="lazy"
             />
             <div class="p-5">
-              <h3 class="font-heading text-lg font-semibold">Youth Climate Labs</h3>
+              <h3 class="font-heading text-lg font-semibold">Campagn against the destruction of Liberian Greenbul and its habitat.</h3>
               <p class="mt-1 text-xs uppercase tracking-wide text-sec-primary">Monrovia</p>
               <p class="mt-3 text-sm text-slate-600">Training youth leaders in climate data, advocacy, and practical adaptation solutions.</p>
+              <a href="project.html#project-3" class="sec-project-read-more mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
             </div>
           </article>
 
+          <!-- Project 4: Community Tree Nurseries -->
           <article class="project-item overflow-hidden rounded-2xl border border-slate-200 bg-white" data-category="forest">
             <img
               class="h-44 w-full object-cover"
-              src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=900&q=80"
-              alt="Nursery for indigenous species"
+              src="/images/project4.jpg" alt="Nursery for indigenous species"
               loading="lazy"
             />
             <div class="p-5">
-              <h3 class="font-heading text-lg font-semibold">Community Tree Nurseries</h3>
+              <h3 class="font-heading text-lg font-semibold">Income Generationand Livelihood Development </h3>
               <p class="mt-1 text-xs uppercase tracking-wide text-sec-primary">Gbarnga, Bong County</p>
               <p class="mt-3 text-sm text-slate-600">Supporting women-led groups producing seedlings for local restoration campaigns.</p>
+              <a href="project.html#project-4" class="sec-project-read-more mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
             </div>
           </article>
 
+          <!-- Project 5: Wetland Guardians Initiative -->
           <article class="project-item overflow-hidden rounded-2xl border border-slate-200 bg-white" data-category="water">
             <img
               class="h-44 w-full object-cover"
-              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80"
+              src="/images/shot4.jpg"
               alt="Wetland conservation project"
               loading="lazy"
             />
@@ -368,20 +372,22 @@
               <h3 class="font-heading text-lg font-semibold">Wetland Guardians Initiative</h3>
               <p class="mt-1 text-xs uppercase tracking-wide text-sec-primary">Marshall Wetlands</p>
               <p class="mt-3 text-sm text-slate-600">Protecting wetland ecosystems critical to flood management and freshwater livelihoods.</p>
+              <a href="project.html#project-5" class="sec-project-read-more mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
             </div>
           </article>
 
+          <!-- Project 6: Solar for Resilience Hubs -->
           <article class="project-item overflow-hidden rounded-2xl border border-slate-200 bg-white" data-category="climate">
             <img
               class="h-44 w-full object-cover"
-              src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80"
-              alt="Solar pilot for community centers"
+              src="/images/shot6.jpg" alt="Solar pilot for community centers"
               loading="lazy"
             />
             <div class="p-5">
-              <h3 class="font-heading text-lg font-semibold">Solar for Resilience Hubs</h3>
+              <h3 class="font-heading text-lg font-semibold">Civil Society Independent Monitoring of Forest Law Enforcement </h3>
               <p class="mt-1 text-xs uppercase tracking-wide text-sec-primary">Margibi County</p>
               <p class="mt-3 text-sm text-slate-600">Powering emergency information centers with low-carbon energy for climate response.</p>
+              <a href="project.html#project-6" class="sec-project-read-more mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
             </div>
           </article>
         </div>
@@ -391,15 +397,15 @@
       <section class="boxed reveal mt-10" aria-label="Impact statistics">
         <div class="grid gap-4 md:grid-cols-4">
           <article class="section-card p-6 text-center">
-            <p class="text-3xl font-extrabold text-sec-primary" data-counter="220000">0</p>
+            <p class="text-3xl font-extrabold text-sec-primary" data-counter="600">0</p>
             <p class="mt-2 text-sm text-slate-600">Trees Planted</p>
           </article>
           <article class="section-card p-6 text-center">
-            <p class="text-3xl font-extrabold text-sec-primary" data-counter="87">0</p>
+            <p class="text-3xl font-extrabold text-sec-primary" data-counter="20">0</p>
             <p class="mt-2 text-sm text-slate-600">Communities Reached</p>
           </article>
           <article class="section-card p-6 text-center">
-            <p class="text-3xl font-extrabold text-sec-primary" data-counter="1800">0</p>
+            <p class="text-3xl font-extrabold text-sec-primary" data-counter="50">0</p>
             <p class="mt-2 text-sm text-slate-600">Volunteers Engaged</p>
           </article>
           <article class="section-card p-6 text-center">
@@ -417,48 +423,47 @@
         </div>
 
         <div class="grid gap-6 md:grid-cols-3">
-          <article class="section-card overflow-hidden">
+          <article class="section-card overflow-hidden" data-article-id="article-1">
             <img
-              src="img/photo1.jpg"
+              src="/images/photo3.jpg" alt="Children watering young trees"
               class="h-44 w-full object-cover"
-              alt="Children watering young trees"
+              
               loading="lazy"
             />
             <div class="p-5">
               <p class="text-xs uppercase tracking-wider text-sec-primary">April 11, 2026</p>
               <h3 class="mt-2 font-heading text-lg font-semibold">School Greening Clubs Expand to 12 Districts</h3>
               <p class="mt-2 text-sm text-slate-600">How student-led eco clubs are reducing waste and restoring shade in school compounds.</p>
-              <a href="#" class="mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
+              <button class="sec-read-more-btn mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline" data-article-id="article-1">Read More</button>
             </div>
           </article>
 
-          <article class="section-card overflow-hidden">
+          <article class="section-card overflow-hidden" data-article-id="article-2">
             <img
-              src="img/photo6.jpg"
+              src="/images/photo6.jpg" alt="Village discussion around climate adaptation"
               class="h-44 w-full object-cover"
-              alt="Village discussion around climate adaptation"
+              
               loading="lazy"
             />
             <div class="p-5">
               <p class="text-xs uppercase tracking-wider text-sec-primary">March 30, 2026</p>
               <h3 class="mt-2 font-heading text-lg font-semibold">Community Dialogues Shape Climate Action Plans</h3>
               <p class="mt-2 text-sm text-slate-600">Participatory planning is helping local leaders prioritize practical adaptation projects.</p>
-              <a href="#" class="mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
+              <button class="sec-read-more-btn mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline" data-article-id="article-2">Read More</button>
             </div>
           </article>
 
-          <article class="section-card overflow-hidden">
+          <article class="section-card overflow-hidden" data-article-id="article-3">
             <img
-              src="img/mangrove"
+              src="/images/project7.jpg" alt="Mangrove ecosystem on Liberian coast"
               class="h-44 w-full object-cover"
-              alt="Mangrove ecosystem on Liberian coast"
               loading="lazy"
             />
             <div class="p-5">
               <p class="text-xs uppercase tracking-wider text-sec-primary">March 08, 2026</p>
               <h3 class="mt-2 font-heading text-lg font-semibold">Mangrove Protection: Why It Matters for Coastal Families</h3>
               <p class="mt-2 text-sm text-slate-600">SEC research highlights nature-based defenses against erosion and storm surges.</p>
-              <a href="#" class="mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline">Read More</a>
+              <button class="sec-read-more-btn mt-4 inline-block text-sm font-semibold text-sec-primary hover:underline" data-article-id="article-3">Read More</button>
             </div>
           </article>
         </div>
@@ -473,28 +478,28 @@
 
         <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
           <button class="gallery-item overflow-hidden rounded-2xl" data-image="img/project1.jpg">
-            <img src="img/photo1.jpg" alt="Mangrove roots" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
+            <img src="/images/Liberia1.jpg" alt="Mangrove roots" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
           </button>
           <button class="gallery-item overflow-hidden rounded-2xl" data-image="https://images.unsplash.com/photo-147344891">
-            <img src="img/photo10" alt="Rainforest canopy" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
+            <img src="images/photo4.jpg" alt="Rainforest canopy" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
           </button>
           <button class="gallery-item overflow-hidden rounded-2xl" data-image="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80">
-            <img src="img/project1a.jpg" alt="Wetland grasslands" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
+            <img src="/images/photo5.jpg" alt="Wetland grasslands" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
           </button>
           <button class="gallery-item overflow-hidden rounded-2xl" data-image="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1400&q=80">
-            <img src="img/project4.jpg" alt="Forest path" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
+            <img src="/images/photo7.jpg" alt="Forest path" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
           </button>
           <button class="gallery-item overflow-hidden rounded-2xl" data-image="https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&w=1400&q=80">
-            <img src="img/project5.jpg" alt="Hands holding seedling" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
+            <img src="/images/photo8.jpg" alt="Hands holding seedling" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
           </button>
           <button class="gallery-item overflow-hidden rounded-2xl" data-image="https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=1400&q=80">
-            <img src="img/project6.jpg" alt="Youth planting" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
+            <img src="/images/photo9.jpg" alt="Youth planting" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
           </button>
           <button class="gallery-item overflow-hidden rounded-2xl" data-image="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1400&q=80">
-            <img src="img/photo1.jpg" alt="Solar panel landscape" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
+            <img src="/images/photo1.jpg" alt="Solar panel landscape" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
           </button>
           <button class="gallery-item overflow-hidden rounded-2xl" data-image="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80">
-            <img src="img/slide2.jpg" alt="Dense green forest" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
+            <img src="/images/photo10" alt="Dense green forest" class="h-36 w-full object-cover transition hover:scale-105" loading="lazy" />
           </button>
         </div>
       </section>
@@ -529,6 +534,310 @@
               class="mt-7 inline-block rounded-full bg-sec-accent px-6 py-3 text-sm font-semibold text-emerald-900 transition hover:-translate-y-0.5 hover:bg-emerald-200"
               >Donate Securely</a
             >
+          </div>
+        </div>
+      </section>
+
+      <!-- Modular donation system: causes section + modal flow -->
+      <section id="donation-system" class="boxed mt-10" aria-labelledby="sec-donate-causes-title">
+        <div id="donation-causes" class="section-card p-6 md:p-10">
+          <div class="mb-6 flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.18em] text-sec-primary">Donation Causes</p>
+              <h2 id="sec-donate-causes-title" class="font-heading mt-2 text-2xl font-bold md:text-3xl">
+                Choose a Cause to Support
+              </h2>
+              <p class="mt-2 max-w-2xl text-sm text-slate-600">
+                Your gift supports practical conservation work in Liberia through trusted, manual payment channels. SEC Liberia
+                issues acknowledgment receipts after payment confirmation.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid gap-5 md:grid-cols-3">
+            <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft">
+              <img
+                src="/images/trees"
+                alt="Young tree seedlings prepared for reforestation"
+                class="h-44 w-full object-cover"
+                loading="lazy"
+              />
+              <div class="p-5">
+                <h3 class="font-heading text-lg font-semibold text-sec-primary">Plant 10,000 Trees in Liberia</h3>
+                <p class="mt-2 text-sm text-slate-600">
+                  Restore degraded forests, strengthen biodiversity corridors, and protect climate-vulnerable communities.
+                </p>
+                <button
+                  type="button"
+                  class="sec-donate-cause-btn mt-4 inline-flex rounded-full bg-sec-primary px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-700"
+                  data-sec-cause="Reforestation Program"
+                >
+                  Donate Now
+                </button>
+              </div>
+            </article>
+
+            <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft">
+              <img
+                src="/images/water.jpeg"
+                alt="Community water station with clean water access"
+                class="h-44 w-full object-cover"
+                loading="lazy"
+              />
+              <div class="p-5">
+                <h3 class="font-heading text-lg font-semibold text-sec-primary">Clean Water for Frontline Communities</h3>
+                <p class="mt-2 text-sm text-slate-600">
+                  Expand rainwater harvesting, sanitation access, and safe water outreach for schools and households.
+                </p>
+                <button
+                  type="button"
+                  class="sec-donate-cause-btn mt-4 inline-flex rounded-full bg-sec-primary px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-700"
+                  data-sec-cause="Clean Water Initiative"
+                >
+                  Donate Now
+                </button>
+              </div>
+            </article>
+
+            <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft">
+              <img
+                src="/images/climate-change.jpg"
+                alt="Climate education workshop in a local community"
+                class="h-44 w-full object-cover"
+                loading="lazy"
+              />
+              <div class="p-5">
+                <h3 class="font-heading text-lg font-semibold text-sec-primary">Climate Action Awareness Campaigns</h3>
+                <p class="mt-2 text-sm text-slate-600">
+                  Equip youth and local leaders with practical knowledge to respond to climate risks and build resilience.
+                </p>
+                <button
+                  type="button"
+                  class="sec-donate-cause-btn mt-4 inline-flex rounded-full bg-sec-primary px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-700"
+                  data-sec-cause="Climate Change Awareness"
+                >
+                  Donate Now
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Project Detail Modal -->
+        <div id="sec-modal-project" class="fixed inset-0 z-[131] hidden pointer-events-none" style="display: none;" aria-hidden="true">
+          <div id="sec-project-modal-overlay" class="pointer-events-auto fixed inset-0 bg-black/40 backdrop-blur-sm"></div>
+          <div class="pointer-events-auto fixed inset-0 flex items-center justify-center overflow-y-auto p-4">
+            <div class="w-full max-w-4xl rounded-2xl bg-white p-6 md:p-10 shadow-xl">
+              <button
+                id="sec-project-back-btn"
+                class="mb-4 inline-flex items-center gap-2 text-sm font-semibold text-sec-primary transition hover:gap-3"
+              >
+                ← Back to Projects & Impact
+              </button>
+
+              <div class="mt-2">
+                <p id="sec-project-location" class="text-xs uppercase tracking-wider text-sec-primary"></p>
+                <h1 id="sec-project-title" class="font-heading mt-2 text-3xl font-bold text-slate-900">Project Title</h1>
+              </div>
+
+              <div class="mt-6 grid gap-4 md:grid-cols-2">
+                <img id="sec-project-image-1" src="" alt="Project image 1" class="h-56 w-full rounded-xl object-cover" />
+                <img id="sec-project-image-2" src="" alt="Project image 2" class="h-56 w-full rounded-xl object-cover" />
+              </div>
+
+              <div id="sec-project-content" class="mt-6 space-y-4 text-slate-700">
+                <p>Project details will appear here.</p>
+              </div>
+
+              <button
+                id="sec-project-close-btn"
+                class="mt-8 inline-flex rounded-full border border-slate-300 px-6 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Article Modal -->
+        <div id="sec-modal-article" class="fixed inset-0 z-[130] hidden pointer-events-none" style="display: none;" aria-hidden="true">
+          <div class="pointer-events-auto fixed inset-0 bg-black/40 backdrop-blur-sm"></div>
+          <div class="pointer-events-auto fixed inset-0 flex items-center justify-center overflow-y-auto p-4">
+            <div class="w-full max-w-2xl rounded-2xl bg-white p-6 md:p-10 shadow-xl">
+              <!-- Back button -->
+              <button
+                id="sec-article-back-btn"
+                class="mb-4 inline-flex items-center gap-2 text-sm font-semibold text-sec-primary hover:gap-3 transition"
+              >
+                ← Back to News & Stories
+              </button>
+
+              <!-- Article header -->
+              <img id="sec-article-image" src="" alt="Article" class="mt-4 h-64 w-full rounded-xl object-cover" />
+              
+              <div class="mt-6">
+                <p id="sec-article-date" class="text-xs uppercase tracking-wider text-sec-primary">Date</p>
+                <h1 id="sec-article-title" class="font-heading mt-2 text-3xl font-bold">Article Title</h1>
+              </div>
+
+              <!-- Article content -->
+              <div id="sec-article-content" class="mt-6 space-y-4 text-slate-700">
+                <p>Article content will appear here...</p>
+              </div>
+
+              <!-- Close button -->
+              <button
+                id="sec-article-close-btn"
+                class="mt-8 inline-flex rounded-full border border-slate-300 px-6 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="sec-modal-donate" class="fixed inset-0 z-[120] hidden pointer-events-none" style="display: none;" aria-hidden="true">
+          <div class="sec-modal-overlay absolute inset-0 bg-slate-900/70 backdrop-blur-sm pointer-events-auto"></div>
+
+          <div class="relative z-10 flex min-h-full items-center justify-center p-4">
+            <div class="pointer-events-auto w-full max-w-3xl overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-float">
+              <div class="flex items-center justify-between border-b border-slate-200 bg-slate-50 px-5 py-4">
+                <h3 class="font-heading text-lg font-bold text-sec-primary">SEC Liberia Donation</h3>
+                <button
+                  id="sec-modal-close"
+                  type="button"
+                  class="rounded-full border border-slate-300 px-3 py-1 text-sm font-semibold text-slate-700 transition hover:bg-slate-100"
+                >
+                  Close
+                </button>
+              </div>
+
+              <div class="border-b border-slate-200 bg-white px-5 py-4">
+                <ol class="grid grid-cols-3 gap-2 text-center text-xs font-semibold uppercase tracking-wide">
+                  <li id="sec-step-indicator-1" class="rounded-lg bg-emerald-100 px-2 py-2 text-emerald-800">Step 1: Donor</li>
+                  <li id="sec-step-indicator-2" class="rounded-lg bg-slate-100 px-2 py-2 text-slate-500">Step 2: Donation</li>
+                  <li id="sec-step-indicator-3" class="rounded-lg bg-slate-100 px-2 py-2 text-slate-500">Step 3: Payment</li>
+                </ol>
+              </div>
+
+              <div class="max-h-[75vh] overflow-y-auto p-5 md:p-6">
+                <div id="sec-step-cause-pick" class="space-y-4">
+                  <p class="text-sm text-slate-600">Choose a cause to begin your donation. For assistance, call +231 77 000 0000.</p>
+                  <div class="grid gap-3 md:grid-cols-3">
+                    <button type="button" class="sec-modal-cause-option rounded-xl border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-800 transition hover:border-sec-primary hover:bg-emerald-50" data-sec-cause="Reforestation Program">Reforestation Program</button>
+                    <button type="button" class="sec-modal-cause-option rounded-xl border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-800 transition hover:border-sec-primary hover:bg-emerald-50" data-sec-cause="Clean Water Initiative">Clean Water Initiative</button>
+                    <button type="button" class="sec-modal-cause-option rounded-xl border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-800 transition hover:border-sec-primary hover:bg-emerald-50" data-sec-cause="Climate Change Awareness">Climate Change Awareness</button>
+                  </div>
+                </div>
+
+                <form id="sec-donate-form" class="hidden">
+                  <div id="sec-step-1" class="space-y-4">
+                    <p class="text-sm text-slate-600">Provide your details so SEC Liberia can confirm your payment and send your acknowledgment receipt.</p>
+                    <div>
+                      <label for="sec-form-fullname" class="mb-1 block text-sm font-medium text-slate-700">Full Name</label>
+                      <input id="sec-form-fullname" name="fullName" type="text" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none ring-sec-primary transition focus:ring-2" placeholder="Enter your full name" />
+                    </div>
+                    <div class="grid gap-4 md:grid-cols-2">
+                      <div>
+                        <label for="sec-form-email" class="mb-1 block text-sm font-medium text-slate-700">Email</label>
+                        <input id="sec-form-email" name="email" type="email" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none ring-sec-primary transition focus:ring-2" placeholder="you@example.com" />
+                      </div>
+                      <div>
+                        <label for="sec-form-phone" class="mb-1 block text-sm font-medium text-slate-700">Phone Number</label>
+                        <input id="sec-form-phone" name="phone" type="tel" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none ring-sec-primary transition focus:ring-2" placeholder="+231 ..." />
+                      </div>
+                    </div>
+                    <div>
+                      <label for="sec-form-address" class="mb-1 block text-sm font-medium text-slate-700">Address (Optional)</label>
+                      <input id="sec-form-address" name="address" type="text" class="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none ring-sec-primary transition focus:ring-2" placeholder="City / Community" />
+                    </div>
+                  </div>
+
+                  <div id="sec-step-2" class="hidden space-y-4">
+                    <p class="text-sm text-slate-600">Confirm your cause and donation amount in USD.</p>
+                    <div>
+                      <label for="sec-form-cause" class="mb-1 block text-sm font-medium text-slate-700">Select Cause</label>
+                      <select id="sec-form-cause" name="cause" required class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none ring-sec-primary transition focus:ring-2">
+                        <option value="">Choose a cause</option>
+                        <option value="Reforestation Program">Reforestation Program</option>
+                        <option value="Clean Water Initiative">Clean Water Initiative</option>
+                        <option value="Climate Change Awareness">Climate Change Awareness</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label for="sec-form-amount" class="mb-1 block text-sm font-medium text-slate-700">Donation Amount (USD)</label>
+                      <input id="sec-form-amount" name="amount" type="text" inputmode="decimal" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none ring-sec-primary transition focus:ring-2" placeholder="50.00" />
+                      <p id="sec-form-amount-preview" class="mt-1 text-xs text-slate-500">Amount preview: $0.00</p>
+                    </div>
+                    <div>
+                      <label for="sec-form-message" class="mb-1 block text-sm font-medium text-slate-700">Message (Optional)</label>
+                      <textarea id="sec-form-message" name="message" rows="3" class="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none ring-sec-primary transition focus:ring-2" placeholder="Leave encouragement or dedication"></textarea>
+                    </div>
+                  </div>
+
+                  <div id="sec-step-3" class="hidden space-y-4">
+                    <p class="text-sm text-slate-600">Select your preferred manual payment method.</p>
+                    <div class="grid gap-3 md:grid-cols-3">
+                      <label class="cursor-pointer rounded-xl border border-slate-300 p-3 text-sm font-semibold text-slate-700 transition hover:border-sec-primary hover:bg-emerald-50">
+                        <input type="radio" class="mr-2" name="paymentMethod" value="bank" /> Bank Transfer
+                      </label>
+                      <label class="cursor-pointer rounded-xl border border-slate-300 p-3 text-sm font-semibold text-slate-700 transition hover:border-sec-primary hover:bg-emerald-50">
+                        <input type="radio" class="mr-2" name="paymentMethod" value="mobile" /> Mobile Money
+                      </label>
+                      <label class="cursor-pointer rounded-xl border border-slate-300 p-3 text-sm font-semibold text-slate-700 transition hover:border-sec-primary hover:bg-emerald-50">
+                        <input type="radio" class="mr-2" name="paymentMethod" value="inperson" /> In-Person Payment
+                      </label>
+                    </div>
+
+                    <div id="sec-payment-details" class="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
+                      Select a payment method to view instructions.
+                    </div>
+                    <p class="text-xs text-slate-500">
+                      For your security, confirm payment details with SEC Liberia at +231 77 000 0000 before sending funds.
+                    </p>
+                  </div>
+
+                  <p id="sec-form-error" class="mt-4 hidden rounded-lg border border-rose-200 bg-rose-50 px-3 py-2 text-sm text-rose-700"></p>
+
+                  <div class="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-4">
+                    <button id="sec-btn-back" type="button" class="hidden rounded-full border border-slate-300 px-5 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100">Back</button>
+                    <div class="ml-auto flex gap-2">
+                      <button id="sec-btn-next" type="button" class="rounded-full bg-sec-primary px-6 py-2 text-sm font-semibold text-white transition hover:bg-emerald-700">Continue</button>
+                      <button id="sec-btn-submit" type="submit" class="hidden rounded-full bg-sec-primary px-6 py-2 text-sm font-semibold text-white transition hover:bg-emerald-700">Confirm Donation</button>
+                    </div>
+                  </div>
+                </form>
+
+                <div id="sec-step-confirm" class="hidden space-y-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-5 text-emerald-900">
+                  <h4 class="font-heading text-xl font-bold text-emerald-900">Thank you for supporting environmental conservation!</h4>
+                  <p class="text-sm">Your donation intent has been recorded. Please use the payment instructions below to complete your contribution. A confirmation receipt will be issued after payment verification.</p>
+                  <div id="sec-confirm-summary" class="rounded-xl border border-emerald-200 bg-white p-4 text-sm text-slate-700"></div>
+                  <div class="flex flex-wrap gap-2">
+                    <button id="sec-confirm-print" type="button" class="rounded-full border border-slate-300 bg-white px-5 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100">Print Instructions</button>
+                    <button id="sec-confirm-reset" type="button" class="rounded-full bg-sec-primary px-5 py-2 text-sm font-semibold text-white transition hover:bg-emerald-700">Make Another Donation</button>
+                  </div>
+                </div>
+
+                <div id="sec-donate-faq" class="mt-6 space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
+                  <p class="text-xs font-semibold uppercase tracking-[0.14em] text-sec-primary">Donation FAQ</p>
+
+                  <details class="rounded-lg border border-slate-200 bg-white p-3">
+                    <summary class="cursor-pointer font-semibold text-slate-800">How long does payment verification take?</summary>
+                    <p class="mt-2 text-slate-600">Most transfers are reviewed within 1 business day after proof of payment or transaction ID is received.</p>
+                  </details>
+
+                  <details class="rounded-lg border border-slate-200 bg-white p-3">
+                    <summary class="cursor-pointer font-semibold text-slate-800">When will I receive my receipt?</summary>
+                    <p class="mt-2 text-slate-600">SEC Liberia issues acknowledgment receipts after payment confirmation. Please keep your transfer confirmation until receipt is sent.</p>
+                  </details>
+
+                  <details class="rounded-lg border border-slate-200 bg-white p-3">
+                    <summary class="cursor-pointer font-semibold text-slate-800">Who do I contact for donation support?</summary>
+                    <p class="mt-2 text-slate-600">Call +231 77 000 0000 or email info@secliberia.org for payment checks, reference updates, and donation assistance.</p>
+                  </details>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -845,12 +1154,743 @@
         if (event.key === "Escape") closeLightboxModal();
       });
 
+      // SEC modular donation system.
+      (function setupSecDonationSystem() {
+        const donateModal = document.getElementById("sec-modal-donate");
+        if (!donateModal) return;
+
+        const closeModalButton = document.getElementById("sec-modal-close");
+        const modalOverlay = donateModal.querySelector(".sec-modal-overlay");
+        const causePickPanel = document.getElementById("sec-step-cause-pick");
+        const donationForm = document.getElementById("sec-donate-form");
+        const confirmPanel = document.getElementById("sec-step-confirm");
+        const errorBox = document.getElementById("sec-form-error");
+
+        const stepPanels = {
+          1: document.getElementById("sec-step-1"),
+          2: document.getElementById("sec-step-2"),
+          3: document.getElementById("sec-step-3")
+        };
+
+        const indicators = {
+          1: document.getElementById("sec-step-indicator-1"),
+          2: document.getElementById("sec-step-indicator-2"),
+          3: document.getElementById("sec-step-indicator-3")
+        };
+
+        const btnBack = document.getElementById("sec-btn-back");
+        const btnNext = document.getElementById("sec-btn-next");
+        const btnSubmit = document.getElementById("sec-btn-submit");
+
+        const fieldName = document.getElementById("sec-form-fullname");
+        const fieldEmail = document.getElementById("sec-form-email");
+        const fieldPhone = document.getElementById("sec-form-phone");
+        const fieldCause = document.getElementById("sec-form-cause");
+        const fieldAmount = document.getElementById("sec-form-amount");
+        const amountPreview = document.getElementById("sec-form-amount-preview");
+        const paymentDetails = document.getElementById("sec-payment-details");
+
+        const confirmSummary = document.getElementById("sec-confirm-summary");
+        const confirmPrint = document.getElementById("sec-confirm-print");
+        const confirmReset = document.getElementById("sec-confirm-reset");
+
+        const paymentInstructions = {
+          bank: `
+            <p><strong>Bank Name:</strong> Ecobank Liberia (Operations Branch)</p>
+            <p><strong>Account Name:</strong> Society for Environmental Conservation (SEC) Liberia</p>
+            <p><strong>Account Number:</strong> 0000 0000 0000 (confirm before transfer)</p>
+            <p><strong>Reference:</strong> Use your full name and phone number.</p>
+            <p><strong>Verification:</strong> Share transfer proof via info@secliberia.org or +231 77 000 0000.</p>
+          `,
+          mobile: `
+            <p><strong>Provider:</strong> Lonestar / Orange Money</p>
+            <p><strong>Number:</strong> +231 77 000 0000</p>
+            <p><strong>Name:</strong> SEC Liberia</p>
+            <p><strong>Reference:</strong> Include your full name in transfer note.</p>
+            <p><strong>Verification:</strong> Send transaction ID to info@secliberia.org.</p>
+          `,
+          inperson: `
+            <p><strong>Office Address:</strong> 15 Carey Street, Monrovia, Liberia</p>
+            <p><strong>Contact Phone:</strong> +231 77 000 0000</p>
+            <p><strong>Office Hours:</strong> Mon-Fri (9AM-5PM)</p>
+            <p><strong>Note:</strong> Request an official SEC Liberia receipt at the office.</p>
+          `
+        };
+
+        let currentStep = 1;
+
+        function showError(message) {
+          errorBox.textContent = message;
+          errorBox.classList.remove("hidden");
+        }
+
+        function clearError() {
+          errorBox.textContent = "";
+          errorBox.classList.add("hidden");
+        }
+
+        function openDonationModal(selectedCause) {
+          donateModal.style.display = "block";
+          donateModal.classList.remove("hidden", "pointer-events-none");
+          donateModal.classList.add("pointer-events-auto");
+          donateModal.setAttribute("aria-hidden", "false");
+          document.body.classList.add("overflow-hidden");
+
+          clearError();
+          confirmPanel.classList.add("hidden");
+          donationForm.classList.add("hidden");
+
+          if (selectedCause) {
+            fieldCause.value = selectedCause;
+            startDonationFlow();
+          } else {
+            causePickPanel.classList.remove("hidden");
+            setProgress(1);
+          }
+        }
+
+        function closeDonationModal() {
+          donateModal.style.display = "none";
+          donateModal.classList.add("hidden", "pointer-events-none");
+          donateModal.classList.remove("pointer-events-auto");
+          donateModal.setAttribute("aria-hidden", "true");
+          document.body.classList.remove("overflow-hidden");
+        }
+
+        function setProgress(activeStep) {
+          [1, 2, 3].forEach((step) => {
+            indicators[step].classList.remove("bg-emerald-100", "text-emerald-800", "bg-slate-100", "text-slate-500");
+            if (step <= activeStep) {
+              indicators[step].classList.add("bg-emerald-100", "text-emerald-800");
+            } else {
+              indicators[step].classList.add("bg-slate-100", "text-slate-500");
+            }
+          });
+        }
+
+        function setStep(step) {
+          currentStep = step;
+          clearError();
+          setProgress(step);
+
+          [1, 2, 3].forEach((index) => {
+            stepPanels[index].classList.toggle("hidden", index !== step);
+          });
+
+          btnBack.classList.toggle("hidden", step === 1);
+          btnNext.classList.toggle("hidden", step === 3);
+          btnSubmit.classList.toggle("hidden", step !== 3);
+        }
+
+        function startDonationFlow() {
+          causePickPanel.classList.add("hidden");
+          donationForm.classList.remove("hidden");
+          setStep(1);
+        }
+
+        function parseAmountValue(rawValue) {
+          const cleaned = rawValue.replace(/[^\d.]/g, "");
+          const amount = Number.parseFloat(cleaned);
+          return Number.isFinite(amount) ? amount : 0;
+        }
+
+        function updateAmountPreview() {
+          const amount = parseAmountValue(fieldAmount.value);
+          amountPreview.textContent = `Amount preview: $${amount.toLocaleString("en-US", {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+          })}`;
+        }
+
+        function validateStep(step) {
+          if (step === 1) {
+            if (!fieldName.value.trim()) return "Please enter your full name.";
+            if (!fieldEmail.value.trim()) return "Please enter your email address.";
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fieldEmail.value.trim())) return "Please enter a valid email address.";
+            if (!fieldPhone.value.trim()) return "Please enter your phone number.";
+            return "";
+          }
+
+          if (step === 2) {
+            if (!fieldCause.value) return "Please select a donation cause.";
+            const amount = parseAmountValue(fieldAmount.value);
+            if (amount <= 0) return "Please enter a valid donation amount in USD.";
+            return "";
+          }
+
+          if (step === 3) {
+            const method = donationForm.querySelector('input[name="paymentMethod"]:checked');
+            if (!method) return "Please choose a payment method.";
+            return "";
+          }
+
+          return "";
+        }
+
+        function renderPaymentInstructions(method) {
+          paymentDetails.innerHTML = paymentInstructions[method] || "Select a payment method to view instructions.";
+        }
+
+        function renderConfirmation() {
+          const selectedMethod = donationForm.querySelector('input[name="paymentMethod"]:checked');
+          const methodLabel = selectedMethod
+            ? selectedMethod.parentElement.textContent.trim()
+            : "Not selected";
+
+          const amount = parseAmountValue(fieldAmount.value);
+
+          confirmSummary.innerHTML = `
+            <p><strong>Donor:</strong> ${fieldName.value.trim()}</p>
+            <p><strong>Cause:</strong> ${fieldCause.value}</p>
+            <p><strong>Amount:</strong> $${amount.toLocaleString("en-US", {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2
+            })}</p>
+            <p><strong>Payment Method:</strong> ${methodLabel}</p>
+            <div class="mt-3 rounded-lg border border-slate-200 bg-slate-50 p-3">
+              ${selectedMethod ? paymentInstructions[selectedMethod.value] : ""}
+            </div>
+          `;
+        }
+
+        const navDonateButton = document.getElementById("sec-donate-nav-btn");
+        const heroDonateButton = document.getElementById("sec-donate-hero-btn");
+        const mobileDonateButton = document.getElementById("sec-donate-mobile-btn");
+        const navDonateFallback = document.querySelector('header nav.md\\:flex a[href="#donate"]');
+
+        [navDonateButton || navDonateFallback, heroDonateButton, mobileDonateButton].forEach((trigger) => {
+          if (!trigger) return;
+          trigger.addEventListener("click", (event) => {
+            event.preventDefault();
+            if (trigger === mobileDonateButton) {
+              menuBtn.setAttribute("aria-expanded", "false");
+              menuBtn.classList.remove("menu-open");
+              mobileMenu.style.maxHeight = "0px";
+            }
+            openDonationModal("");
+          });
+        });
+
+        document.querySelectorAll(".sec-donate-cause-btn").forEach((button) => {
+          button.addEventListener("click", () => {
+            openDonationModal(button.dataset.secCause || "");
+          });
+        });
+
+        document.querySelectorAll(".sec-modal-cause-option").forEach((button) => {
+          button.addEventListener("click", () => {
+            fieldCause.value = button.dataset.secCause || "";
+            startDonationFlow();
+          });
+        });
+
+        closeModalButton.addEventListener("click", closeDonationModal);
+        modalOverlay.addEventListener("click", closeDonationModal);
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && donateModal.getAttribute("aria-hidden") === "false") {
+            closeDonationModal();
+          }
+        });
+
+        btnNext.addEventListener("click", () => {
+          const message = validateStep(currentStep);
+          if (message) {
+            showError(message);
+            return;
+          }
+          if (currentStep < 3) setStep(currentStep + 1);
+        });
+
+        btnBack.addEventListener("click", () => {
+          if (currentStep > 1) setStep(currentStep - 1);
+        });
+
+        donationForm.querySelectorAll('input[name="paymentMethod"]').forEach((radio) => {
+          radio.addEventListener("change", () => renderPaymentInstructions(radio.value));
+        });
+
+        fieldAmount.addEventListener("input", updateAmountPreview);
+        fieldAmount.addEventListener("blur", () => {
+          const amount = parseAmountValue(fieldAmount.value);
+          if (amount > 0) {
+            fieldAmount.value = amount.toLocaleString("en-US", {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2
+            });
+          }
+          updateAmountPreview();
+        });
+
+        donationForm.addEventListener("submit", (event) => {
+          event.preventDefault();
+          const message = validateStep(3);
+          if (message) {
+            showError(message);
+            return;
+          }
+
+          clearError();
+          btnSubmit.disabled = true;
+          const originalText = btnSubmit.textContent;
+          btnSubmit.textContent = "Processing...";
+
+          setTimeout(() => {
+            btnSubmit.disabled = false;
+            btnSubmit.textContent = originalText;
+            donationForm.classList.add("hidden");
+            renderConfirmation();
+            confirmPanel.classList.remove("hidden");
+          }, 900);
+        });
+
+        confirmPrint.addEventListener("click", () => {
+          window.print();
+        });
+
+        confirmReset.addEventListener("click", () => {
+          donationForm.reset();
+          renderPaymentInstructions("");
+          updateAmountPreview();
+          confirmPanel.classList.add("hidden");
+          causePickPanel.classList.remove("hidden");
+          donationForm.classList.add("hidden");
+          setProgress(1);
+        });
+
+        updateAmountPreview();
+      })();
+
+      // Project Detail Modal System
+      (() => {
+        const projectModal = document.getElementById("sec-modal-project");
+        const projectBackBtn = document.getElementById("sec-project-back-btn");
+        const projectCloseBtn = document.getElementById("sec-project-close-btn");
+        const projectOverlay = document.getElementById("sec-project-modal-overlay");
+        const projectReadMoreButtons = document.querySelectorAll(".sec-project-read-more");
+
+        const projects = {
+          "project-1": {
+            title: "Enhancing AMENU Farmers Coorperative Capacity",
+            location: "Tubmanburg, Bomi County",
+            images: ["images/project1a.jpg", "images/project1.jpg"],
+            content: `
+              <p>
+                This project strengthens the AMENU Farmers Cooperative through technical training, seedling support, and community-based restoration planning. The cooperative leads both mangrove and upland rehabilitation in priority erosion zones.
+              </p>
+              <p>
+                SEC Liberia supports members with practical workshops on soil conservation, nursery management, and resilient land-use planning. Farmers apply these methods to improve food production while restoring degraded land.
+              </p>
+              <p>
+                The project also improves local governance through regular planning meetings, transparent group management, and shared monitoring. Early results include improved seedling survival rates and stronger cooperative participation among women and youth.
+              </p>
+            `
+          },
+          "project-2": {
+            title: "Establishing Botanical Garden for income generation",
+            location: "Paynesville, Montserrado",
+            images: ["images/slide6.jpg", "images/photo6.jpg"],
+            content: `
+              <p>
+                The botanical garden initiative creates a practical conservation and livelihood hub where local groups cultivate indigenous plants, medicinal species, and climate-smart crops for community use and market sales.
+              </p>
+              <p>
+                SEC Liberia provides site preparation support, propagation training, and business coaching so participating groups can generate sustainable income while protecting biodiversity.
+              </p>
+              <p>
+                The garden also serves as a demonstration site for schools and youth groups, helping visitors learn about restoration, water stewardship, and environmental enterprise development.
+              </p>
+            `
+          },
+          "project-3": {
+            title: "Youth Climate Labs",
+            location: "Monrovia",
+            images: ["images/photo8.jpg", "images/photo9.jpg"],
+            content: `
+              <p>
+                Youth Climate Labs equip young leaders with tools to understand local climate risks, communicate data clearly, and design practical adaptation activities in their schools and neighborhoods.
+              </p>
+              <p>
+                Participants receive mentoring in climate communication, project planning, and community engagement. Each cohort develops pilot actions such as awareness campaigns, small restoration drives, or local risk mapping.
+              </p>
+              <p>
+                The labs build long-term leadership pipelines by connecting participants to local institutions and ongoing environmental programs across Liberia.
+              </p>
+            `
+          },
+          "project-4": {
+            title: "Community Tree Nurseries",
+            location: "Gbarnga, Bong County",
+            images: ["images/project7.jpg", "images/project8.jpg"],
+            content: `
+              <p>
+                Community Tree Nurseries support women-led and youth-led groups to produce high-quality indigenous seedlings for reforestation and agroforestry campaigns.
+              </p>
+              <p>
+                Training focuses on seed collection, germination, watering schedules, and transplant planning to improve survival rates after planting.
+              </p>
+              <p>
+                The initiative also creates local green jobs through nursery operations and seasonal planting contracts, while increasing tree cover in surrounding communities.
+              </p>
+            `
+          },
+          "project-5": {
+            title: "Wetland Guardians Initiative",
+            location: "Marshall Wetlands",
+            images: ["images/mangrove", "images/sapo"],
+            content: `
+              <p>
+                The Wetland Guardians Initiative protects sensitive wetland areas that are essential for flood buffering, water quality, fisheries, and biodiversity.
+              </p>
+              <p>
+                SEC Liberia works with residents to map high-risk zones, reduce destructive practices, and promote conservation-friendly livelihood options.
+              </p>
+              <p>
+                Community monitors track key indicators such as vegetation recovery and seasonal water flow, providing local evidence for better management decisions.
+              </p>
+            `
+          },
+          "project-6": {
+            title: "Solar for Resilience Hubs",
+            location: "Margibi County",
+            images: ["images/slide2.jpg", "images/slide5.jpg"],
+            content: `
+              <p>
+                Solar for Resilience Hubs installs clean, reliable power in community centers that serve as emergency information and coordination points during climate-related events.
+              </p>
+              <p>
+                The project improves access to lighting, communication charging points, and critical awareness messaging for response teams and residents.
+              </p>
+              <p>
+                Local technicians are trained to maintain the systems, ensuring long-term operation and stronger community ownership of resilience infrastructure.
+              </p>
+            `
+          }
+        };
+
+        function openProjectModal(projectId) {
+          const project = projects[projectId];
+          if (!project) return;
+
+          document.getElementById("sec-project-title").textContent = project.title;
+          document.getElementById("sec-project-location").textContent = project.location;
+          document.getElementById("sec-project-image-1").src = project.images[0];
+          document.getElementById("sec-project-image-1").alt = `${project.title} image 1`;
+          document.getElementById("sec-project-image-2").src = project.images[1];
+          document.getElementById("sec-project-image-2").alt = `${project.title} image 2`;
+          document.getElementById("sec-project-content").innerHTML = project.content;
+
+          projectModal.style.display = "block";
+          projectModal.classList.remove("hidden", "pointer-events-none");
+          projectModal.classList.add("pointer-events-auto");
+          projectModal.setAttribute("aria-hidden", "false");
+          document.body.classList.add("overflow-hidden");
+        }
+
+        function closeProjectModal(updateHash = true) {
+          projectModal.style.display = "none";
+          projectModal.classList.add("hidden", "pointer-events-none");
+          projectModal.classList.remove("pointer-events-auto");
+          projectModal.setAttribute("aria-hidden", "true");
+          document.body.classList.remove("overflow-hidden");
+
+          if (updateHash && window.location.hash.startsWith("#project-")) {
+            window.location.hash = "projects";
+          }
+        }
+
+        function getProjectIdFromHash() {
+          const hashValue = window.location.hash.replace("#", "").trim();
+          return projects[hashValue] ? hashValue : "";
+        }
+
+        function syncProjectRoute() {
+          const projectId = getProjectIdFromHash();
+          if (projectId) {
+            openProjectModal(projectId);
+          } else if (projectModal.getAttribute("aria-hidden") === "false") {
+            closeProjectModal(false);
+          }
+        }
+
+        projectReadMoreButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const projectId = button.dataset.projectId || "";
+            if (!projectId) return;
+
+            // Open immediately for responsive UX, then sync URL for deep-linking.
+            openProjectModal(projectId);
+            if (window.location.hash !== `#${projectId}`) {
+              window.location.hash = projectId;
+            }
+          });
+        });
+
+        projectBackBtn.addEventListener("click", closeProjectModal);
+        projectCloseBtn.addEventListener("click", closeProjectModal);
+        projectOverlay.addEventListener("click", closeProjectModal);
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && projectModal.getAttribute("aria-hidden") === "false") {
+            closeProjectModal();
+          }
+        });
+
+        window.addEventListener("hashchange", syncProjectRoute);
+        syncProjectRoute();
+      })();
+
+      // Article Modal System
+      (() => {
+        const articleModal = document.getElementById("sec-modal-article");
+        const articleBackBtn = document.getElementById("sec-article-back-btn");
+        const articleCloseBtn = document.getElementById("sec-article-close-btn");
+        const readMoreBtns = document.querySelectorAll(".sec-read-more-btn");
+
+        // Article content database
+        const articles = {
+          "article-1": {
+            title: "School Greening Clubs Expand to 12 Districts",
+            date: "April 11, 2026",
+            image: "img/photo1.jpg",
+            content: `
+              <p>
+                Student-led environmental clubs have become a powerful force for change across Liberia's school system. What started as a pilot program with just three schools has now expanded to 12 districts, engaging over 1,200 young people in practical conservation work.
+              </p>
+              <p>
+                These eco clubs focus on reducing waste in school compounds, planting native trees for shade, creating school gardens, and raising awareness among peers about environmental issues. Teachers report that participation in the clubs has also improved students' academic performance and sense of responsibility.
+              </p>
+              <p>
+                "The students are becoming environmental ambassadors in their communities," says one participating school principal. "They're not just learning about conservation—they're living it every day."
+              </p>
+              <p>
+                SEC Liberia provides training, materials, and ongoing support to these clubs. Plans are underway to expand to 20 additional districts by the end of 2026. The organization has documented that each active club removes approximately 200 kg of waste annually while planting 50+ native trees.
+              </p>
+              <p>
+                As one student leader explained, "When we restore our school environment, we're showing our communities that young people care about creating a better future for everyone."
+              </p>
+            `
+          },
+          "article-2": {
+            title: "Community Dialogues Shape Climate Action Plans",
+            date: "March 30, 2026",
+            image: "img/photo6.jpg",
+            content: `
+              <p>
+                Community participation is at the heart of SEC Liberia's approach to climate action. Over the past six months, the organization has facilitated dialogues in 15 communities to understand local climate challenges and develop participatory adaptation plans.
+              </p>
+              <p>
+                These "climate conversations" bring together farmers, fisherfolk, business owners, youth, and local leaders to discuss the environmental changes they've observed and the impacts on their livelihoods. The insights gathered are then used to design practical, community-led solutions.
+              </p>
+              <p>
+                "People have deep knowledge about their environment," explains an SEC Liberia program coordinator. "When we create space for that knowledge to be heard and valued, communities become the experts in solving their own challenges."
+              </p>
+              <p>
+                Key themes emerging from the dialogues include: changing rainfall patterns affecting agriculture, coastal erosion threatening fishing communities, and the need for income-generating activities that don't harm the environment. Each community has now developed a prioritized action plan with SEC Liberia's support.
+              </p>
+              <p>
+                Early results are encouraging. One community has already begun implementing a mangrove restoration project, while another is piloting regenerative agriculture techniques. The dialogues have also strengthened social cohesion and local leadership capacity.
+              </p>
+              <p>
+                SEC Liberia continues to facilitate these discussions, with plans to expand to 25 communities by year-end.
+              </p>
+            `
+          },
+          "article-3": {
+            title: "Mangrove Protection: Why It Matters for Coastal Families",
+            date: "March 08, 2026",
+            image: "img/mangrove",
+            content: `
+              <p>
+                Mangrove forests are among Earth's most valuable ecosystems—yet they're vanishing three times faster than other forests. In Liberia, where coastal communities depend heavily on marine resources and are increasingly vulnerable to climate impacts, mangrove protection is not just an environmental issue—it's a matter of survival.
+              </p>
+              <p>
+                Mangroves provide multiple benefits to coastal communities. Their dense root systems trap sediment, preventing erosion and protecting shorelines. They buffer communities against storm surges and flooding. They serve as nurseries for commercially important fish species. And they sequester carbon at rates far exceeding terrestrial forests.
+              </p>
+              <p>
+                "When you lose mangroves, you lose everything," says a fisherwoman from Grand Cape Mount County. "The fish populations decline, erosion accelerates, and storms hit harder. Our livelihoods disappear with the mangroves."
+              </p>
+              <p>
+                SEC Liberia's research has documented the relationship between mangrove loss and declining fish catches in three coastal counties. The organization is now partnering with communities to restore degraded mangrove areas and establish sustainable management practices.
+              </p>
+              <p>
+                A pilot restoration project in one community has already planted 50,000 mangrove seedlings and established a monitoring system to track growth and ecosystem recovery. Community members have been trained as ecosystem monitors and are now earning income through mangrove maintenance and monitoring work.
+              </p>
+              <p>
+                "Mangrove protection is coastal resilience," explains an SEC Liberia scientist. "It's one of the most cost-effective nature-based solutions for climate adaptation available to us."
+              </p>
+            `
+          }
+        };
+
+        function openArticleModal(articleId) {
+          const article = articles[articleId];
+          if (!article) return;
+
+          document.getElementById("sec-article-title").textContent = article.title;
+          document.getElementById("sec-article-date").textContent = article.date;
+          document.getElementById("sec-article-image").src = article.image;
+          document.getElementById("sec-article-image").alt = article.title;
+          document.getElementById("sec-article-content").innerHTML = article.content;
+
+          articleModal.style.display = "block";
+          articleModal.classList.remove("hidden", "pointer-events-none");
+          articleModal.classList.add("pointer-events-auto");
+          articleModal.setAttribute("aria-hidden", "false");
+          document.body.classList.add("overflow-hidden");
+        }
+
+        function closeArticleModal() {
+          articleModal.style.display = "none";
+          articleModal.classList.add("hidden", "pointer-events-none");
+          articleModal.classList.remove("pointer-events-auto");
+          articleModal.setAttribute("aria-hidden", "true");
+          document.body.classList.remove("overflow-hidden");
+        }
+
+        // Event listeners
+        readMoreBtns.forEach((btn) => {
+          btn.addEventListener("click", (e) => {
+            e.preventDefault();
+            const articleId = btn.dataset.articleId;
+            openArticleModal(articleId);
+          });
+        });
+
+        articleBackBtn.addEventListener("click", closeArticleModal);
+        articleCloseBtn.addEventListener("click", closeArticleModal);
+
+        // Close modal when clicking the overlay
+        articleModal.addEventListener("click", (e) => {
+          if (e.target === articleModal.querySelector(".pointer-events-auto:first-child")) {
+            closeArticleModal();
+          }
+        });
+
+        // Close on Escape key
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && articleModal.getAttribute("aria-hidden") === "false") {
+            closeArticleModal();
+          }
+        });
+      })();
+
       // Prevent demo form submits from navigating.
       document.querySelectorAll("form").forEach((form) => {
         form.addEventListener("submit", (event) => {
           event.preventDefault();
         });
       });
+    </script>
+
+    <script>
+      // Fallback project modal binding.
+      // This runs as a safety net if any earlier script errors interrupt initialization.
+      (function setupProjectModalFallback() {
+        const projectModal = document.getElementById("sec-modal-project");
+        const projectButtons = document.querySelectorAll(".sec-project-read-more");
+        const projectBackBtn = document.getElementById("sec-project-back-btn");
+        const projectCloseBtn = document.getElementById("sec-project-close-btn");
+        const projectOverlay = document.getElementById("sec-project-modal-overlay");
+
+        if (!projectModal || !projectButtons.length || projectModal.dataset.fallbackBound === "true") return;
+
+        const fallbackProjects = {
+          "project-1": {
+            title: "Enhancing AMENU Farmers Coorperative Capacity",
+            location: "Tubmanburg, Bomi County",
+            images: ["images/project1a.jpg", "images/project1.jpg"],
+            content:
+              "This project strengthens the AMENU Farmers Cooperative through technical training, seedling support, and restoration planning to protect soils and improve livelihoods."
+          },
+          "project-2": {
+            title: "Establishing Botanical Garden for income generation",
+            location: "Paynesville, Montserrado",
+            images: ["images/slide6.jpg", "images/photo6.jpg"],
+            content:
+              "The botanical garden initiative supports livelihood development through indigenous plant cultivation, conservation education, and community enterprise training."
+          },
+          "project-3": {
+            title: "Youth Climate Labs",
+            location: "Monrovia",
+            images: ["images/photo8.jpg", "images/photo9.jpg"],
+            content:
+              "Youth Climate Labs build practical leadership in climate communication, risk mapping, and local adaptation planning for schools and communities."
+          },
+          "project-4": {
+            title: "Community Tree Nurseries",
+            location: "Gbarnga, Bong County",
+            images: ["images/project7.jpg", "images/project8.jpg"],
+            content:
+              "Community Tree Nurseries train local groups to produce native seedlings and support large-scale restoration and agroforestry campaigns."
+          },
+          "project-5": {
+            title: "Wetland Guardians Initiative",
+            location: "Marshall Wetlands",
+            images: ["images/mangrove", "images/sapo"],
+            content:
+              "This initiative protects wetland ecosystems through local monitoring, conservation planning, and community-led stewardship activities."
+          },
+          "project-6": {
+            title: "Solar for Resilience Hubs",
+            location: "Margibi County",
+            images: ["images/slide2.jpg", "images/slide5.jpg"],
+            content:
+              "Solar resilience hubs provide reliable power for emergency information, communication access, and local climate response coordination."
+          }
+        };
+
+        function openFallbackProject(projectId) {
+          const project = fallbackProjects[projectId];
+          if (!project) return;
+
+          document.getElementById("sec-project-title").textContent = project.title;
+          document.getElementById("sec-project-location").textContent = project.location;
+          document.getElementById("sec-project-image-1").src = project.images[0];
+          document.getElementById("sec-project-image-2").src = project.images[1];
+          document.getElementById("sec-project-image-1").alt = `${project.title} image 1`;
+          document.getElementById("sec-project-image-2").alt = `${project.title} image 2`;
+          document.getElementById("sec-project-content").innerHTML = `<p>${project.content}</p>`;
+
+          projectModal.style.display = "block";
+          projectModal.classList.remove("hidden", "pointer-events-none");
+          projectModal.classList.add("pointer-events-auto");
+          projectModal.setAttribute("aria-hidden", "false");
+          document.body.classList.add("overflow-hidden");
+
+          if (window.location.hash !== `#${projectId}`) {
+            window.location.hash = projectId;
+          }
+        }
+
+        // Expose a global helper for inline button fallback.
+        window.secOpenProjectFromButton = openFallbackProject;
+
+        function closeFallbackProject() {
+          projectModal.style.display = "none";
+          projectModal.classList.add("hidden", "pointer-events-none");
+          projectModal.classList.remove("pointer-events-auto");
+          projectModal.setAttribute("aria-hidden", "true");
+          document.body.classList.remove("overflow-hidden");
+
+          if (window.location.hash.startsWith("#project-")) {
+            window.location.hash = "projects";
+          }
+        }
+
+        projectButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const projectId = button.dataset.projectId || "";
+            openFallbackProject(projectId);
+          });
+        });
+
+        if (projectBackBtn) projectBackBtn.addEventListener("click", closeFallbackProject);
+        if (projectCloseBtn) projectCloseBtn.addEventListener("click", closeFallbackProject);
+        if (projectOverlay) projectOverlay.addEventListener("click", closeFallbackProject);
+
+        projectModal.dataset.fallbackBound = "true";
+      })();
     </script>
   </body>
 </html>
